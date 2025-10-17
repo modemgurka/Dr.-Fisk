@@ -1,0 +1,4 @@
+import 'dotenv/config'; // laddar in .env automatiskt
+
+const apiKey = process.env.OPENAI_API_KEY;
+console.log("Min API-nyckel:", apiKey);
