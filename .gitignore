@@ -1,0 +1,21 @@
+# Dependencies / builds
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+dist/
+build/
+out/
+.turbo/
+.vercel/
+
+# Secrets
+secret code.txt
+.env
+.env*
+
+# Misc
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
